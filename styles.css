@@ -6,6 +6,9 @@ body {
   line-height: 1.6;
   background-color: #f4f4f4;
   color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the body takes at least the full viewport height */
 }
 
 h1, h2, h3 {
@@ -51,6 +54,7 @@ nav a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
   border-radius: 8px;
+  flex: 1; /* Allows the main content to grow and fill available space */
 }
 
 /* Footer Styles */
@@ -59,10 +63,10 @@ footer {
   color: #fff;
   text-align: center;
   padding: 10px 0;
-  position: fixed;
+  font-size: 14px;
+  position: relative; /* Changed from fixed to relative for better layout flow */
   bottom: 0;
   width: 100%;
-  font-size: 14px;
 }
 
 footer a {
@@ -84,5 +88,11 @@ footer a:hover {
   nav a {
     display: block;
     margin: 10px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding-bottom: 40px; /* Adds extra padding at the bottom for mobile screens */
   }
 }
