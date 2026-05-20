@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Mambernetics//Dinner 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+
+BEGIN:VEVENT
+UID:mambernetics-2026-dinner
+DTSTAMP:20260520T000000Z
+DTSTART;TZID=America/New_York:20260903T170000
+DTEND;TZID=America/New_York:20260903T200000
+SUMMARY:Mambernetics 2026 Dinner
+LOCATION:Parish Hall at Basilica of the Sacred Heart of Jesus\, 353 Peachtree St NE\, Atlanta\, GA 30308
+DESCRIPTION:2nd Biennial Mambernetics Dinner. Please ensure RSVP is confirmed before relying on this calendar entry.\n\nWalking Directions:\nFrom the northeast corner of Peachtree Center Ave NE (the street between the Hyatt Regency Atlanta and Atlanta Marriott Marquis) and Baker St NE\, walk north on Peachtree Center Ave NE for approximately 500 feet.\n\nJust before reaching the historic red-brick basilica with twin towers and a large circular window on the right-hand side of the street\, turn right into the parking lot entrance.\n\nContinue through the parking lot while keeping the fence on your left-hand side as the route bends around in a near U-turn toward the building entrance. The guard rail on your right will end directly at the entrance door leading into the Parish Hall.\n\nDay-Of Questions or Arrival Issues: 904-274-2579
+
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mambernetics 2026 Dinner
+END:VALARM
+
+END:VEVENT
+
+END:VCALENDAR
