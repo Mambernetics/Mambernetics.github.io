@@ -181,6 +181,60 @@ a:hover {
 }
 
 /* =========================
+   DONATION QR CODES
+   ========================= */
+
+.donation-qr-codes {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin: 30px auto;
+}
+
+.donation-qr {
+  width: 180px;
+  text-align: center;
+}
+
+.donation-qr-title {
+  font-family: "Lucida Console", verdana, arial;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.donation-qr img {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.donation-qr-caption {
+  font-size: 0.85em;
+  margin-top: 8px;
+}
+
+/* Stack donation QR codes on smaller screens */
+@media screen and (max-width: 600px) {
+  .donation-qr-codes {
+    gap: 25px;
+  }
+
+  .donation-qr {
+    width: 160px;
+  }
+
+  .donation-qr img {
+    width: 145px;
+    height: 145px;
+  }
+}
+
+
+/* =========================
    FOOTER (if used)
    ========================= */
 
